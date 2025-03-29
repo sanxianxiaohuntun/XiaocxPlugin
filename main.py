@@ -3,7 +3,7 @@ from pkg.plugin.events import PersonNormalMessageReceived, GroupNormalMessageRec
 import subprocess
 import os
 import re
-import asyncio  # 导入 asyncio
+import asyncio
 from mirai import Image, Plain
 
 @register(name="小程序运行插件", description="一个小插件运行插件不必开关程序直接运行程序简单（可以用gpt直接写功能添加）", version="0.1", author="小馄饨")
